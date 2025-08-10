@@ -11,3 +11,20 @@ A simple Java + Selenium project to practice and demonstrate different types of 
 - Java 21+
 - Maven
 - Chrome browser & ChromeDriver
+
+## 📂 Project Structure
+ECommerceSeleniumDemo/
+├── pom.xml
+├── README.md
+├── src
+│ ├── main
+│ │ └── java
+│ │ └── pages
+│ │ ├── LoginPage.java
+│ │ ├── ProductsPage.java
+│ │ ├── CartPage.java
+│ │ └── CheckoutPage.java
+│ └── test
+│ └── java
+│ └── tests
+│ └── E2ETest.java
