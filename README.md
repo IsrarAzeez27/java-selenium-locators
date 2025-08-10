@@ -13,18 +13,10 @@ A simple Java + Selenium project to practice and demonstrate different types of 
 - Chrome browser & ChromeDriver
 
 ## 📂 Project Structure
-ECommerceSeleniumDemo/
-├── pom.xml
-├── README.md
-├── src
-│ ├── main
-│ │ └── java
-│ │ └── pages
-│ │ ├── LoginPage.java
-│ │ ├── ProductsPage.java
-│ │ ├── CartPage.java
-│ │ └── CheckoutPage.java
-│ └── test
-│ └── java
-│ └── tests
-│ └── E2ETest.java
+```plaintext
+SeleniumFrameworkDesign/
+│-- src/
+│   ├── main/java/        # Core framework code & utilities
+│   └── test/java/        # Test scripts
+│-- testng.xml            # TestNG configuration
+│-- pom.xml               # Maven dependencies
